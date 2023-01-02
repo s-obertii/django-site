@@ -16,7 +16,6 @@ def index(request):
 
     context = {
         'posts': posts,
-        'cats': cats,
         'menu': menu,
         'title': 'Главная страница',
         'cat_selected': 0,
